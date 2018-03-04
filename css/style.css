@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 .bg-dark{
-  background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3326042/580/333/m1/fpnw/wm0/40-black-wood-background-textures-24-.jpg?1506571975&s=77f0119ea5e4971a126e86800ffe1a2f);
+  background-image: url("../images/blackbg.jpg");
 }
 button{
   color: white;
@@ -21,7 +21,7 @@ body {
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
   /* background-color: #343a40; */
-  background-image: url("https://img-cdn.thehungryjpeg.com/productimages/1111/738/90/daae4277bce67a6e50abecb4d2f8cb3c1b9f5a71.jpg");
+  background-image: url("../images/whitebg.jpg");
   color: white;
 }
 
@@ -73,3 +73,12 @@ textarea{
 .col-md-6{
   display: inline-grid;
 }
+/*
+@media (min-width: 700px) {
+    .col-md-6 {
+        max-width: 100% !important;
+    }
+    .col-md-3{
+      max-width: 50% !important;
+    }
+} */
